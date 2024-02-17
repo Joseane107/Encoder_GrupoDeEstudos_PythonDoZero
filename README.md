@@ -1,2 +1,3 @@
-# Encoder_GrupoDeEstudos_PythonDoZero.
+# Encoder_GrupoDeEstudos_PythonDoZero
 
+Hello, welcome to our code!
