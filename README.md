@@ -1,1 +1,2 @@
-# Encoder_GrupoDeEstudos_PythonDoZero
+# Encoder_GrupoDeEstudos_PythonDoZero.
+
