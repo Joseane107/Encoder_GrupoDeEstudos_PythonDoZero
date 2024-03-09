@@ -1,3 +1,4 @@
+from decode import first_encoder
 first_call = first_encoder()
 second_call = first_encoder()
 #first_call.get_message()
