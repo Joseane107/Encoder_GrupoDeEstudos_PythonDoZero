@@ -1,0 +1,9 @@
+first_call = first_encoder()
+second_call = first_encoder()
+#first_call.get_message()
+
+#first_call.bytes_to_bit()
+
+#second_call.bytes_to_bit()
+
+first_call.binary_together()
