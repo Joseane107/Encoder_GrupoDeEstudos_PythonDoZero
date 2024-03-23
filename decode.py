@@ -41,4 +41,17 @@ class first_encoder:
             self.bin = self.bin + i
         print(self.bin)
 
+    def set_to_6_bits(self):
+        self.binary_together()
 
+        length = len(self.bin)
+        print(length)
+        div = int(length/6)
+
+        self.six_bits_list = []
+
+        j = 0
+        for i in range (1,div + 1):
+            self.six_bits_list.append(self.bin[j:6*i])
+            j = 6*i 
+        print(self.six_bits_list)
