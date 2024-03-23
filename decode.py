@@ -41,6 +41,7 @@ class first_encoder:
             self.bin = self.bin + i
         print(self.bin)
 
+    ## até o momento só funciona para palavras (ex. mãe) em que os binários concatenados são múltiplos de 6 
     def set_to_6_bits(self):
         self.binary_together()
 
