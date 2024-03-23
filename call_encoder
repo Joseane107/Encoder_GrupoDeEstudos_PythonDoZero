@@ -3,4 +3,4 @@ from decode import first_encoder
 
 first_call = first_encoder()
 
-first_call.six_bits_to_hex()
+first_call.six_bits_to_dec()

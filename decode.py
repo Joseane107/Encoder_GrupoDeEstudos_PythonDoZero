@@ -57,11 +57,11 @@ class first_encoder:
             j = 6*i 
         print(self.six_bits_list)
 
-    def six_bits_to_hex(self):
+    def six_bits_to_dec(self):
         self.set_to_6_bits()
 
-        self.hex_num = []
+        self.dec_num = []
         for i in self.six_bits_list:
-            self.hex_num.append(hex(int(i)))
-        print(self.hex_num)
+            self.dec_num.append(int(i, 2))
+        print(self.dec_num)
         
