@@ -56,3 +56,12 @@ class first_encoder:
             self.six_bits_list.append(self.bin[j:6*i])
             j = 6*i 
         print(self.six_bits_list)
+
+    def six_bits_to_hex(self):
+        self.set_to_6_bits()
+
+        self.hex_num = []
+        for i in self.six_bits_list:
+            self.hex_num.append(hex(int(i)))
+        print(self.hex_num)
+        
